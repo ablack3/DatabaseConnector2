@@ -1,14 +1,17 @@
 DatabaseConnector2
 
-Functions to implement
+Functions implemented
 -------
 createConnectionDetails
 connect
-createZipFile() Compress files and/or folders into a single zip file
-DatabaseConnectorDriver()
 disconnect()
-dropEmulatedTempTables()
 executeSql()
+
+
+Functions to (possibly) implement
+-------
+querySql()
+dropEmulatedTempTables()
 existsTable()
 getAvailableJavaHeapSpace() Get available Java heap space
 getTableNames() List all tables in a database schema.
@@ -17,8 +20,8 @@ isSqlReservedWord() Test a character vector of SQL names for SQL reserved words
 lowLevelExecuteSql() Execute SQL code
 lowLevelQuerySql() Low level function for retrieving data to a data frame
 lowLevelQuerySqlToAndromeda() Low level function for retrieving data to a local Andromeda object
-querySql() Retrieve data to a data.frame
 querySqlToAndromeda() Retrieves data to a local Andromeda object
+
 renderTranslateExecuteSql() Render, translate, execute SQL code
 renderTranslateQueryApplyBatched() Render, translate, and perform process to batches of data.
 renderTranslateQuerySql() Render, translate, and query to data.frame
